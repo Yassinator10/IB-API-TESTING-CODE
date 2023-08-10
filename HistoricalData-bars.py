@@ -19,13 +19,13 @@ class TestApp(EClient, EWrapper):
         
         mycontract = Contract()
         #mycontract.conId = 14895034
-        #mycontract.conId = 756733
+        mycontract.conId = 424726370
 
-        mycontract.symbol = "AAPL"
-        mycontract.secType = "STK"
-        mycontract.exchange = "ISLAND"
+        #mycontract.symbol = "AAPL"
+        #mycontract.secType = "STK"
+        mycontract.exchange = "SMART"
         #mycontract.primaryExchange = "ARCA"
-        mycontract.currency = "USD"
+        #mycontract.currency = "USD"
 
         self.reqHistoricalData(
             reqId=orderId,
